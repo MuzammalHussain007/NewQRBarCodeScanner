@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="?attr/background_color"
+    tools:context=".SoloActivities.SoloEmailActivity">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="?attr/toolbar_bottom_card"
+        app:titleTextColor="?attr/text_color"
+        app:title="@string/mail"
+        />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="15dp"
+            >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                >
+
+
+                <EditText
+                    android:id="@+id/mail_to"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:background="@drawable/slight_round_shap"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginRight="15dp"
+                    android:layout_marginLeft="15dp"
+                    android:hint="@string/to"
+                    android:textColor="?attr/text_color"
+                    android:textColorHint="@color/gray_bg"
+                    android:paddingLeft="15dp"
+                    android:inputType="textEmailAddress"
+                    />
+
+                <EditText
+                    android:id="@+id/subject"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:background="@drawable/slight_round_shap"
+                    android:layout_marginTop="10dp"
+                    android:textColorHint="@color/gray_bg"
+                    android:textColor="?attr/text_color"
+                    android:layout_marginRight="15dp"
+                    android:layout_marginLeft="15dp"
+                    android:hint="@string/subject"
+                    android:paddingLeft="15dp"
+                    />
+
+                <EditText
+                    android:id="@+id/message"
+                    android:layout_width="match_parent"
+                    android:layout_height="100dp"
+                    android:background="@drawable/slight_round_shap"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginRight="15dp"
+                    android:textColorHint="@color/gray_bg"
+                    android:textColor="?attr/text_color"
+                    android:layout_marginLeft="15dp"
+                    android:hint="@string/type_message"
+                    android:paddingLeft="15dp"
+                    android:textAlignment="viewStart"
+                    android:paddingTop="10dp"
+                    android:lines="50"
+                    android:gravity="start" />
+
+                <ImageView
+                    android:id="@+id/image"
+                    android:layout_width="0dp"
+                    android:layout_height="0dp"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="20dp"
+                    android:contentDescription="@string/todo"
+                    />
+
+                <TextView
+                    android:id="@+id/create_mail"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginRight="15dp"
+                    android:layout_marginLeft="15dp"
+                    android:background="@drawable/bg_button"
+                    android:text="@string/create"
+                    android:textColor="?attr/text_color"
+                    android:textAlignment="center"
+                    android:textSize="20sp"
+                    android:padding="14dp"
+                    />
+
+            </LinearLayout>
+
+        </ScrollView>
+    </LinearLayout>
+    <com.google.android.gms.ads.AdView
+        android:id="@+id/adView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:adSize="BANNER"
+        app:adUnitId="@string/admob_banner_ad_id"
+        android:layout_alignParentBottom="true"/>
+
+</LinearLayout>

@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.be.solo.qr.code.scanner">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_solo_qr"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_solo_qr_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.QRBarCodeScanner">
+        <activity android:name=".SoloActivities.SplashActivity">
+            <intent-filter>
+                <action
+                    android:name="android.intent.action.MAIN"
+                    android:windowSoftInputMode="stateHidden" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".SoloActivities.SoloTextDetailActivity" />
+
+        <activity android:name=".SoloActivities.SoloURLsDetailActivity" />
+        <activity android:name=".SoloActivities.SoloScanResultActivity" />
+        <activity
+            android:name=".SoloActivities.SoloQRActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".SoloActivities.SoloURLActivity"
+            android:windowSoftInputMode="adjustResize" />
+        <activity
+            android:name=".SoloActivities.SoloWifiActivity"
+            android:windowSoftInputMode="adjustResize" />
+        <activity
+            android:name=".SoloActivities.SoloTextActivity"
+            android:windowSoftInputMode="adjustResize" />
+        <activity
+            android:name=".SoloActivities.SoloTelActivity"
+            android:windowSoftInputMode="adjustResize" />
+        <activity
+            android:name=".SoloActivities.SoloContactActivity"
+            android:windowSoftInputMode="adjustResize" />
+        <activity
+            android:name=".SoloActivities.SoloEventActivity"
+            android:windowSoftInputMode="adjustResize" />
+        <activity
+            android:name=".SoloActivities.SoloLocationActivity"
+            android:windowSoftInputMode="adjustResize" />
+        <activity
+            android:name=".SoloActivities.SoloMessageActivity"
+            android:windowSoftInputMode="adjustResize" />
+        <activity
+            android:name=".SoloActivities.SoloEmailActivity"
+            android:windowSoftInputMode="adjustResize" />
+        <activity android:name=".SoloActivities.SoloMainActivity">
+        </activity>
+        <meta-data
+            android:name="com.google.android.gms.vision.DEPENDENCIES"
+            android:value="barcode" />
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+        <meta-data
+            android:name="com.google.android.gms.ads.APPLICATION_ID"
+            android:value="@string/admob_app_id" />
+    </application>
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.CAMERA" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+</manifest>

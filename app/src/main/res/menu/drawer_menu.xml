@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+    <item android:id="@+id/home"
+        android:title="@string/home"
+        android:icon="@drawable/ic_home_black_24dp"
+        />
+
+    <item android:id="@+id/favourite"
+        android:title="@string/favourite"
+        android:icon="@drawable/ic_favorite_border_black_24dp"
+        />
+
+    <item android:id="@+id/history"
+        android:title="@string/history"
+        android:icon="@drawable/ic_history_black_24dp"
+        />
+        <item
+            android:id="@+id/invisible_drawer"
+            android:visible="false"
+            android:icon="@drawable/ic_favorite_border_black_24dp"
+            android:title="@string/home" />
+        <item android:id="@+id/privacyPolicy"
+            android:title="Privacy Policy"
+            android:icon="@drawable/privacy_policy"
+            />
+    </group>
+
+    <group>
+        <item android:id="@+id/change_theme"
+            android:title="@string/theme"
+            android:icon="@drawable/ic_day_light_theme"
+            />
+    <item android:id="@+id/share"
+
+        android:title="@string/share"
+        android:icon="@drawable/ic_share_black_24dp"
+        />
+
+    <item android:id="@+id/more_apps"
+        android:title="@string/more_apps"
+        android:icon="@drawable/ic_playlist_add_black_24dp"
+        />
+
+    </group>
+
+</menu>

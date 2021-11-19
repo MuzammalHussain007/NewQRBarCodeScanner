@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="db">
+
+        <attr name="background_color" format="color"/>
+        <attr name="toolbar_bottom_card" format="color"/>
+        <attr name="text_color" format="color"/>
+        <attr name="blue_button_color" format="color"/>
+        <attr name="icon_color" format="color"/>
+    </declare-styleable>
+</resources>

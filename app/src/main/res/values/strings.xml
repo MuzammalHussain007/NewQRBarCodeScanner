@@ -1,0 +1,68 @@
+<resources>
+    <string name="app_name">SoloQR</string>
+    <string name="history">History</string>
+    <string name="create">Create</string>
+    <string name="scan">Scan</string>
+    <string name="favourite">Favourite</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    //Create QR Code
+    <string name="email">Email</string>
+    <string name="message">Message</string>
+    <string name="location">Location</string>
+    <string name="event">Event</string>
+    <string name="contact">Contact</string>
+    <string name="tel">Tel</string>
+    <string name="text">Text</string>
+    <string name="wifi">WiFi</string>
+    <string name="url">Url</string>
+    <string name="mail">Email</string>
+    <string name="to">To</string>
+    <string name="subject">Subject</string>
+    <string name="type_message">Type your message here...</string>
+    <string name="latitude">Latitude</string>
+    <string name="longitude">Longitude</string>
+    <string name="query">Query</string>
+    <string name="title">Title</string>
+    <string name="description">Description</string>
+    <string name="begin_time">Begin Time</string>
+    <string name="end_time">End Time</string>
+    <string name="name">Full Name</string>
+    <string name="address">Address</string>
+    <string name="phone">Phone</string>
+    <string name="number">Enter your number</string>
+    <string name="ssid">SSID</string>
+    <string name="password">Password</string>
+    <string name="wpa">WPA/WPA2</string>
+    <string name="wep">WEP</string>
+    <string name="none">None</string>
+    <string name="http">http://</string>
+    <string name="save">Save</string>
+    <string name="share">Share</string>
+    <string name="print">Print</string>
+    <string name="result">Scan Successfully</string>
+    <string name="open_in_browser">Open in Browser</string>
+    <string name="item_name">Item Name</string>
+    <string name="search">Search</string>
+    <string name="home">Home</string>
+    <string name="more_apps">More Apps</string>
+    <string name="scan_qr">Scan QR</string>
+    <string name="no_favourities">No Favourities</string>
+    <string name="no_history">No History</string>
+    <string name="todo">TODO</string>
+    <!--    // test ids-->
+    <string name="admob_app_id">ca-app-pub-3940256099942544~3347511713</string>
+    <string name="admob_banner_ad_id">ca-app-pub-3940256099942544/6300978111</string>
+    <string name="admob_interstitial_ad_id">ca-app-pub-3940256099942544/1033173712</string>
+
+
+    <!--    // Real Ids-->
+    <!--        <string name="admob_app_id">ca-app-pub-3991149205825218~9115424847</string>-->
+    <!--        <string name="admob_banner_ad_id">ca-app-pub-3991149205825218/3295744653</string>-->
+    <!--        <string name="admob_interstitial_ad_id">ca-app-pub-3991149205825218/8176536245</string>-->
+    <string name="theme">Theme</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+
+</resources>
